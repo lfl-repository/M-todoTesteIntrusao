@@ -1,0 +1,407 @@
+XSS in URL: http://testesseg.xxxx.xxxx.br:3006/btslab/register.php?em
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3006/btslab/register.php?em) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3006/btslab/register.php?em --> 2020-02-05 15:12:15.351215
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: 3e565e26a5453841ce1de2ee8cdd7e1c
+[+] Trying: http://testesseg.xxxx.xxxx.br:3006/btslab/register.php?em=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang --> 2020-02-05 15:12:20.469415
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: fe09712847a4d5cf5d27ef9db2c896e5
+[+] Trying: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang --> 2020-02-05 15:12:25.598294
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: 13c1d33b4a1c9af30b09d7d05a988ae0
+[+] Trying: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang --> 2020-02-05 15:12:51.313873
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: e57121489ca507dcd8ce9617582f36fc
+[+] Trying: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang --> 2020-02-05 15:12:56.425219
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: c6b6b727ae98962d1db26902f180991c
+[+] Trying: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang --> 2020-02-05 15:13:01.528612
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: 86d00a98d81f28c6ee3321d2de398c5d
+[+] Trying: http://testesseg.xxxx.xxxx.br:3004/phpmyadmin/main.php?lang=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/reflected_xss/?item
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/reflected_xss/?item) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/reflected_xss/?item --> 2020-02-05 15:13:10.760441
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: 6e3ce31f6487a2d7a016631227487b36
+[+] Trying: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/reflected_xss/?item=
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[+] Checking: url attack with ">PAYLOAD... fail
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/ssrf_xspa/
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/ssrf_xspa/) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/ssrf_xspa/ --> 2020-02-05 15:13:15.860552
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: da09216f3393bd49facaff967418aa25
+[+] Trying: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/ssrf_xspa/">da09216f3393bd49facaff967418aa25
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[-] Injection Results:
+
+404 Not Found: The server has not found anything matching the Request-URI
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/ --> 2020-02-05 15:13:20.954528
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: 485dc0a33ad5fcb4f464dbfe7cc52444
+[+] Trying: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/">485dc0a33ad5fcb4f464dbfe7cc52444
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[-] Injection Results:
+
+404 Not Found: The server has not found anything matching the Request-URI
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
+
+XSS in URL: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/
+===========================================================================
+
+XSSer v1.7b: "ZiKA-47 Swarm!" - 2011/2018 - (GPLv3.0) -> by psy
+
+===========================================================================
+Testing [XSS from URL]...
+===========================================================================
+
+[Info] HEAD alive check for the target: (http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/) is OK (200) [AIMED]
+
+===========================================================================
+Target: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/ --> 2020-02-05 15:13:26.068013
+===========================================================================
+
+---------------------------------------------
+[-] Hashing: f06941aa0a45dc0392714ed3da851356
+[+] Trying: http://testesseg.xxxx.xxxx.br:3005/xvwa/vulnerabilities/stored_xss/">f06941aa0a45dc0392714ed3da851356
+[+] Browser Support: [IE7.0|IE6.0|NS8.1-IE] [NS8.1-G|FF2.0] [O9.02]
+[-] Injection Results:
+
+404 Not Found: The server has not found anything matching the Request-URI
+
+===========================================================================
+
+Mosquito(es) landed!
+
+===========================================================================
+[*] Final Results:
+===========================================================================
+
+- Injections: 1
+- Failed: 1
+- Successful: 0
+- Accur: 0 %
+
+===========================================================================
+
+[I] Could not find any vulnerability!. Try another combination or hack it -manually- :)
+
+===========================================================================
