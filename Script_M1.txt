@@ -1,0 +1,75 @@
+#M1: Instrumentalização do teste
+
+LOGIN_PAGE=(
+    ''
+    'http://testesseg.xxxx.xxxx.br:3001/WebGoat/login'
+    'http://testesseg.xxxx.xxxx.br:3002/login.php'
+    'http://testesseg.xxxx.xxxx.br:3003/login.php'
+    ''
+    ''
+    ''
+    )
+URL_EXCLUDE=(
+    ''
+    'http://testesseg.xxxx.xxxx.br:3001/WebGoat/logout'
+    'http://testesseg.xxxx.xxxx.br:3002/logout.php'
+    'http://testesseg.xxxx.xxxx.br:3003/logout.php'
+    ''
+    'http://testesseg.xxxx.xxxx.br:3005/xvwa/setup/'
+    ''
+    )
+URL=(
+    'http://testesseg.xxxx.xxxx.br:3000/cgi-bin/badstore.cgi'
+    'http://testesseg.xxxx.xxxx.br:3001/WebGoat/start.mvc'
+    'http://testesseg.xxxx.xxxx.br:3002/index.php'
+    'http://testesseg.xxxx.xxxx.br:3003/portal.php'
+    'http://testesseg.xxxx.xxxx.br:3004/index.php'
+    'http://testesseg.xxxx.xxxx.br:3005/xvwa/'
+    'http://testesseg.xxxx.xxxx.br:3006/btslab'
+    )
+NAME=(
+    'badstore'
+    'webgoat'
+    'DVWA'
+    'bWAPP'
+    'Mutillidae'
+    'xvwa'
+    'btslab'
+    )
+LOGIN=(
+    '0'
+    '1'
+    '1'
+    '1'
+    '0'
+    '0'
+    '0'
+    )
+for i in {0..6}; do
+    if [[ ${LOGIN[$i]} -eq 1 ]];then
+        #getcookie
+        echo "${NAME[$i]}"
+        /home/tester/tut/wapiti/bin/wapiti-getcookie 
+            -u ${LOGIN_PAGE[$i]} -c ${NAME[$i]}.json | 
+            tee ${NAME[$i]}.command
+        
+        tail -2 ${NAME[$i]}.command
+        cookie=$(tail -n 3 ${NAME[$i]}.command | 
+                 grep -Eo "([a-zA-Z])+=[[:alnum:]]{4,}")
+
+        rm ${NAME[$i]}.command
+        echo "Cookie= " $cookie
+        python /home/tester/tut/htcap-1.0.1/htcap.py  
+            crawl  -v -m active -d domain -x ${URL_EXCLUDE[$i]}
+            -c $cookie ${URL[$i]} ${NAME[$i]}.db
+        
+    else
+        echo "${NAME[$i]}"
+        python /home/tester/tut/htcap-1.0.1/htcap.py  crawl 
+             -d domain -x '${URL_EXCLUDE[$i]}' 
+             ${URL[$i]} ${NAME[$i]}.db
+        
+    fi
+        #sqlite3 ${NAME[$i]}.db "select url from request;" 
+        | cut -d'?' -f1 | uniq | grep "testesseg"
+done
