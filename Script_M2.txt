@@ -1,0 +1,19 @@
+#M2: Varredura de aplicação
+
+for file in $(ls *.db); do
+    echo $file;
+    urls=$(sqlite3 $file "select url from request;" 
+    | cut -d'?' -f1 | uniq | grep "testesseg");
+    
+    for url in $urls; do
+        if [ "$1" == "-v" ]; then
+            echo $url;
+        else 
+        echo $url;
+            zap-cli open-url $url
+            zap-cli active-scan --scanners xss,sqli
+                    --recursive $url
+            zap-cli alerts
+        fi
+    done
+done 
