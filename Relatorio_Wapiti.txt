@@ -1,0 +1,51 @@
+#bwapp.json
+{
+  ".testesseg.xxxx.xxxx.br": {
+    "/": {
+      "PHPSESSID": {
+        "value": "oo5210mf90ad2n0uc2hr19g1j1",
+        "expires": null,
+        "secure": false,
+        "port": null,
+        "version": 0
+      }
+    }
+  }
+}
+
+#dvwa.json
+{
+  ".testesseg.xxxx.xxxx.br": {
+    "/": {
+      "PHPSESSID": {
+        "value": "8q2r9tdnt8pg2ltp3k9dhgvma1",
+        "expires": null,
+        "secure": false,
+        "port": null,
+        "version": 0
+      },
+      "security": {
+        "value": "low",
+        "expires": null,
+        "secure": false,
+        "port": null,
+        "version": 0
+      }
+    }
+  }
+}
+
+#webgoat.json
+{
+  ".testesseg.xxxx.xxxx.br": {
+    "/WebGoat": {
+      "JSESSIONID": {
+        "value": "6640D017DE4D1E34A824BDBF55142966",
+        "expires": null,
+        "secure": false,
+        "port": null,
+        "version": 0
+      }
+    }
+  }
+}
